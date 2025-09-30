@@ -11,7 +11,7 @@ lista_t *crtNode(const data_t *datos);
 
 int pushList(lista_t **inicio, const data_t *datos);
 
-void printList(lista_t *inicio);
+void printList(const lista_t *inicio);
 
 void freeList(lista_t **inicio);
 

@@ -3,4 +3,6 @@
 
 int invList(lista_t **inicio);
 
+size_t cdadRepetidos(lista_t *inicio);
+
 #endif

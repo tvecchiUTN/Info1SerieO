@@ -9,17 +9,15 @@ int main(void)
     for(int i = 0; i < 10; i++)
     {
         a1.x = i % 5;
-        a1.y = rand() % 3;
+        a1.y = rand() % 5;
 
         pushList(&inicioList, &a1);
     }
 
     printList(inicioList);
     printf("\n");
-    invList(&inicioList);
 
-    printList(inicioList);
-    printf("\n");
+    printf("%ld\n", cdadRepetidos(inicioList));
     freeList(&inicioList);
     
 }

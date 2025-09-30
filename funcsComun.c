@@ -46,7 +46,7 @@ int pushList(lista_t **inicio, const data_t *datos)
     return EST_OK;
 }
 
-void printList(lista_t *inicio)
+void printList(const lista_t *inicio)
 {
     if(!inicio)
     {
