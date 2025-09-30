@@ -4,8 +4,6 @@
 
 int main(void)
 {
-    printf("Programa copilado el %s a las %s\n", __DATE__, __TIME__);
-
     data_t a1;
     lista_t *inicioList = NULL;
     for(int i = 1; i <= 10; i++)

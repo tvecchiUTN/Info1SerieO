@@ -17,9 +17,6 @@ lista_t *crtNode(const data_t *datos)
     return newNode;
 }
 
-#define EST_ERROR 0
-#define EST_OK 1
-
 // *inicio es la direccion del primer elemento nodo
 // (*inicio) -> sig es el contenido del sigiente elemnto del nodo
 int pushList(lista_t **inicio, const data_t *datos)
