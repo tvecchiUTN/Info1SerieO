@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "funcsComun.h"
-#include "comun.h"
 
 lista_t *crtNode(const data_t *datos)
 {
@@ -37,7 +36,7 @@ int pushList(lista_t **inicio, const data_t *datos)
 
     lista_t *auxInit = *inicio;
 
-    while(auxInit->sig != NULL)
+    while(auxInit->sig)
     {
         auxInit = auxInit->sig;
     }
